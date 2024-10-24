@@ -5,7 +5,6 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 function Boats({ name, description, picture }) {
   return (
     <View>
-      <Text>GetABoat - For Sale</Text>
       <View
         style={{
           marginBottom: 20,
@@ -65,6 +64,7 @@ function Boats({ name, description, picture }) {
 function AllBoats() {
   return (
     <ScrollView>
+      <Text>GetABoat - For Sale</Text>
       <Boats
         name="Sea Ray 500 Sundancer"
         description="Contoured lines and dramatic styling reveal a refined and powerful presence that will take your breath away."
